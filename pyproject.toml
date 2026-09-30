@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gradlens"
+version = "0.1.0"
+description = "A privacy-first, explainable resume parser and graduate application analyzer."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "GradLens contributors" }]
+dependencies = []
+keywords = ["resume-parser", "graduate-admissions", "NLP", "career-tools"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+pdf = ["pypdf>=4.2"]
+docx = ["python-docx>=1.1"]
+all = ["pypdf>=4.2", "python-docx>=1.1"]
+dev = ["pytest>=8.0", "ruff>=0.5"]
+
+[project.scripts]
+gradlens = "gradlens.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

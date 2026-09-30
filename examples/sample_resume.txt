@@ -1,0 +1,27 @@
+Maya Chen
+maya.chen@example.test | +1 555 010 2468 | Boston, MA
+
+EDUCATION
+M.S. Computer Science, Northstar University, 2023–2025
+B.S. Applied Mathematics, Lakeside College, 2019–2023
+
+RESEARCH EXPERIENCE
+Research Assistant, Northstar Human-Centered AI Lab | Aug 2024 – May 2025
+- Designed an evaluation workflow for 12 language models across 4 task categories.
+- Analyzed 1,200 anonymized examples and documented error patterns for a faculty-led study.
+- Presented findings at the university's graduate research symposium.
+
+PROJECTS
+Accessible Course Finder | Jan 2024 – May 2024
+- Built a Python and SQL prototype that organized 240 course records by accessibility features.
+- Validated search results with 18 volunteer participants and revised the interface from feedback.
+
+SKILLS
+Python, SQL, pandas, scikit-learn, data visualization, experimental design, Git
+
+PUBLICATIONS
+Chen, M. (2025). Evaluating evidence displays in educational search interfaces. Student Research Review.
+
+LEADERSHIP
+Peer Mentor, Graduate Computing Society | Sep 2024 – May 2025
+- Mentored 6 first-year students on research planning and academic writing.
